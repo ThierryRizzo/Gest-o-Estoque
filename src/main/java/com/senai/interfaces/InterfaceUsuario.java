@@ -1,5 +1,6 @@
 package com.senai.interfaces;
 
+import com.senai.conect.Banco;
 import com.senai.model.Cliente;
 import com.senai.model.Empresa;
 import com.senai.model.Funcionario;
@@ -255,6 +256,7 @@ public class InterfaceUsuario {
                     JOptionPane.showMessageDialog(null,
                             "Funcionário Cadastrado com sucesso!");
 
+
                 }
             }
         } else if (opt == 2) {
@@ -334,5 +336,3 @@ public class InterfaceUsuario {
 
     }
 }
-
-
